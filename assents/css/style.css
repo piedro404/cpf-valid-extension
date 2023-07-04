@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --valid: #3fd15f;
+    --invalid: #fe2424;
+    --white: #f8f8f8;
+    --gray: #ddd;
+    --blue: #0c81b4;
+    --blue-dark: #025f87;
+}
+
+form{
+    display: flex;
+    background-color: var(--white);
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.valid{
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    transition: all 0.5s ease-in-out;
+}
+
+.input.active{
+    width: 60%;
+}
+
+.input.active.valid{
+    border: 1px solid var(--valid);
+}
+
+.input.active.invalid{
+    border: 1px solid var(--invalid);
+}
+
+.span{
+    width: 40%;
+    margin: 0px 10px;
+    padding: 12px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    display: none;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.span.active{
+    display: block;
+}
+
+.span.active.valid{
+    background-color: var(--valid);
+}
+
+.span.active.invalid{
+    background-color: var(--invalid);
+}
+
+.button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: var(--blue-dark);
+}

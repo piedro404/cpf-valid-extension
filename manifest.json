@@ -1,0 +1,22 @@
+{
+    "name": "Validação de CPF",
+    "description": "Extensão de validar e gerar CPF",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "./assents/image/cpf-logo.png",
+            "48": "./assents/image/cpf-logo.png",
+            "128":"./assents/image/cpf-logo.png"
+        }
+    },
+    "icons": {
+        "16": "./assents/image/cpf-logo.png",
+        "48": "./assents/image/cpf-logo.png",
+        "128":"./assents/image/cpf-logo.png"
+    }
+}
