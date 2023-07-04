@@ -25,5 +25,9 @@ A extensão utiliza JavaScript para executar a validação do CPF diretamente em
 6. O resultado da validação será exibido na página.
 
 ## Licença
+Este projeto está licenciado sob a Licença MIT. Por favor, inclua a seguinte referência no seu trabalho derivado:
+<br>
+- Validação de CPF - desenvolvida por [Piedro404](https://github.com/piedro404) sob a Licença MIT.
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+
+Obrigado a todos, desejo otimos estudos, caso queira, entre em contato em pedro.henrique.martins404@gmail.com.
